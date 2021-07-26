@@ -1,8 +1,9 @@
 " ------------------------------------------------------------------------------------
 " File: rosebox.vim
-" Description: Retro groove color scheme for Vim
+" Description: This is a fork of the gruvbox-community palette, that has been
+" altered to fit the rosebox theme
 " Author: morhetz <morhetz@gmail.com> | Forked by atidyshirt <jordanpyott@gmail.com>
-" Original Source: https://github.com/rosebox-community/rosebox
+" Original Source: https://github.com/gruvbox-community/gruvbox
 " Source: https://github.com/atidyshirt/rosebox
 " ------------------------------------------------------------------------------------
 
@@ -126,7 +127,7 @@ let g:current_rosebox_colors = s:gb
 " set palette default colors
 call s:Color('dark0_hard',  ['#262626', 234])     " 29-32-33
 call s:Color('dark0',       ['#262626', 235])     " 40-40-40
-call s:Color('dark0_soft',  ['#32302f', 236])     " 50-48-47
+call s:Color('dark0_soft',  ['#262626', 236])     " 50-48-47
 call s:Color('dark1',       ['#3c3836', 237])     " 60-56-54
 call s:Color('dark2',       ['#504945', 239])     " 80-73-69
 call s:Color('dark3',       ['#665c54', 241])     " 102-92-84
@@ -145,28 +146,28 @@ call s:Color('light3',      ['#bdae93', 248])     " 189-174-147
 call s:Color('light4',      ['#a89984', 246])     " 168-153-132
 call s:Color('light4_256',  ['#a89984', 246])     " 168-153-132
 
-call s:Color('bright_red',     ['#637A8A', 167])     " 251-73-52
-call s:Color('bright_green',   ['#a57562', 142])     " 184-187-38
-call s:Color('bright_yellow',  ['#6B8998', 214])     " 250-189-47
-call s:Color('bright_blue',    ['#877979', 109])     " 131-165-152
-call s:Color('bright_purple',  ['#937F74', 175])     " 211-134-155
-call s:Color('bright_aqua',    ['#a3a5aa', 108])     " 142-192-124
+call s:Color('bright_red',     ['#D08770', 167])     " 251-73-52
+call s:Color('bright_green',   ['#A3BE8C', 142])     " 184-187-38
+call s:Color('bright_yellow',  ['#EBCB8B', 214])     " 250-189-47
+call s:Color('bright_blue',    ['#637A8A', 109])     " 131-165-152
+call s:Color('bright_purple',  ['#B48EAD', 175])     " 211-134-155
+call s:Color('bright_aqua',    ['#8FBCBB', 108])     " 142-192-124
 call s:Color('bright_orange',  ['#D08770', 208])     " 254-128-25
 
-call s:Color('neutral_red',    ['#637A8A', 124])     " 204-36-29
-call s:Color('neutral_green',  ['#a57562', 106])     " 152-151-26
-call s:Color('neutral_yellow', ['#6B8998', 172])     " 215-153-33
-call s:Color('neutral_blue',   ['#877979', 66])      " 69-133-136
-call s:Color('neutral_purple', ['#937F74', 132])     " 177-98-134
-call s:Color('neutral_aqua',   ['#a3a5aa', 72])      " 104-157-106
+call s:Color('neutral_red',    ['#D08770', 124])     " 204-36-29
+call s:Color('neutral_green',  ['#D08770', 106])     " 152-151-26
+call s:Color('neutral_yellow', ['#EBCB8B', 172])     " 215-153-33
+call s:Color('neutral_blue',   ['#637A8A', 66])      " 69-133-136
+call s:Color('neutral_purple', ['#B48EAD', 132])     " 177-98-134
+call s:Color('neutral_aqua',   ['#8FBCBB', 72])      " 104-157-106
 call s:Color('neutral_orange', ['#D08770', 166])     " 214-93-14
 
-call s:Color('faded_red',      ['#9d0006', 88])      " 157-0-6
-call s:Color('faded_green',    ['#79740e', 100])     " 121-116-14
+call s:Color('faded_red',      ['#D08770', 88])      " 157-0-6
+call s:Color('faded_green',    ['#A3BE8C', 100])     " 121-116-14
 call s:Color('faded_yellow',   ['#b57614', 136])     " 181-118-20
-call s:Color('faded_blue',     ['#076678', 24])      " 7-102-120
-call s:Color('faded_purple',   ['#8f3f71', 96])      " 143-63-113
-call s:Color('faded_aqua',     ['#427b58', 65])      " 66-123-88
+call s:Color('faded_blue',     ['#637A8A', 24])      " 7-102-120
+call s:Color('faded_purple',   ['#B48EAD', 96])      " 143-63-113
+call s:Color('faded_aqua',     ['#8FBCBB', 65])      " 66-123-88
 call s:Color('faded_orange',   ['#af3a03', 130])     " 175-58-3
 
 " }}}
